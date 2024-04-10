@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Align items in a straight line */
+    align-items: center; /* Align items vertically */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo-img {
+    width: 90px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin to the right of the logo */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px; /* Add space between links */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically on mobile screens */
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem; /* Increase font size for brand name on mobile screens */
+    }
+
+    .logo-img {
+        width: 70px; /* Increase image size on mobile screens */
+        margin-right: 0; /* Remove right margin on mobile screens */
+        margin-bottom: 10px; /* Add bottom margin to separate logo and brand name on mobile screens */
+    }
+
+    .nav-links {
+        margin-top: 10px; /* Add top margin to navigation links on mobile screens */
+    }
+}
+.welcome-heading {
+    text-align: center; /* Align the heading to the center */
+    background-color: #2175c9; /* Adjust color as needed */
+}/* styles.css */
+
+
+.about-section {
+  
+    display: flex;
+
+    align-items: center;
+
+    background-color: #f3f3f3c0;
+
+    padding: 50px 30px;
+}
+ 
+.link-to-book {
+
+    color: #ffffff;
+
+    display: block;
+
+    border: 2px solid #ffffff;
+
+    padding: 5px 10px;
+}
+ 
+a.link-to-book:hover {
+
+    background-color: #ffffff;
+
+    color: #95999e;
+
+    text-decoration: none;
+}
+.section-intro {
+  
+    height: 820px;
+
+    background-image: url(images/meeting_logo.jpg);
+
+    background-size: cover;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+ 
+
+.section-intro h1 {
+
+    text-align: center;
+
+    color: #000;
+
+    font-size: 4em;
+
+    font-weight: 700;
+}
+ 
+.section-intro header {
+
+    display: flex;
+
+    flex: 4;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+}
+ 
+.link-to-book-wrapper {
+
+    flex: 1;
+}
+.about-section .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-section .col-lg-6 {
+    flex: 1;
+}
+
+.about-section .col-lg-6 img {
+    
+    width: 90%; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: auto;
+    display: block;
+}
+/* Add styles for the Contact Us section */
+
+.contact-section {
+    background-color: #f9f9f9; /* Background color */
+    padding: 50px 0; /* Padding top and bottom */
+}
+
+.contact-section .section-heading {
+    margin-bottom: 20px; /* Bottom margin for the heading */
+    color: #d61010; /* Text color */
+}
+
+.contact-section p {
+    margin-bottom: 10px; 
+    color: rgb(134, 65, 97);/* Bottom margin for paragraphs */
+}
+
+.contact-section .col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Adjust styles for larger screens */
+@media (min-width: 992px) {
+    .contact-section .col-lg-6 {
+        justify-content: flex-start; /* Align content to the top */
+    }
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    color: #333; /* Set text color */
+    text-align: center; /* Align text in the center */
+    margin-left: auto; /* Set left margin to auto */
+    margin-right: auto; /* Set right margin to auto */
+    max-width: 300px; /* Optionally, set a maximum width */
+}
+
+.footer .container {
+    text-align: center; /* Align container content in the center */
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+    font-size: 18px; 
+    color: #41082b;/* Adjust font size */
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Align social links in the center */
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links li img {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+}
+
